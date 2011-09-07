@@ -1,0 +1,27 @@
+NAME
+    Org::To::Text - Export Org document to text
+
+VERSION
+    version 0.00
+
+SYNOPSIS
+     use Org::To::Text qw(org_to_text);
+     my $text = org_to_text(source=>$org);
+
+DESCRIPTION
+    NOT YET IMPLEMENTED.
+
+SEE ALSO
+    Org::Parser
+
+    Org::To::HTML
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
