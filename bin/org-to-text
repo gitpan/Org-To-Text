@@ -1,0 +1,83 @@
+#!perl
+
+# Note: This script is a CLI interface to Riap function /Org/To/Text/org_to_text
+# and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.01
+
+our $DATE = '2014-08-16'; # DATE
+our $VERSION = '0.001'; # VERSION
+
+use 5.010001;
+use strict;
+use warnings;
+
+use Perinci::CmdLine::Any -prefer_lite=>1;
+
+Perinci::CmdLine::Any->new(
+    url => "/Org/To/Text/org_to_text",
+)->run;
+
+# ABSTRACT: org-to-text
+# PODNAME: org-to-text
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+org-to-text - org-to-text
+
+=head1 VERSION
+
+This document describes version 0.001 of org-to-text (from Perl distribution Org-To-Text), released on 2014-08-16.
+
+=head1 SYNOPSIS
+
+Usage:
+
+ % org-to-text
+
+Examples:
+
+ TODO
+
+To see all options:
+
+ % org-to-text --help
+
+=head1 DESCRIPTION
+
+=head1 OPTIONS
+
+ TODO
+
+=head1 HOMEPAGE
+
+Please visit the project's homepage at L<https://metacpan.org/release/Org-To-Text>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/sharyanto/perl-Org-To-Text>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website L<https://rt.cpan.org/Public/Dist/Display.html?Name=Org-To-Text>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+=head1 AUTHOR
+
+Steven Haryanto <stevenharyanto@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Steven Haryanto.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
